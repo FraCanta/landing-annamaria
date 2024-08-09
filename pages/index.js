@@ -63,7 +63,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 ">
-              <div className="p-8 text-white border bg-main border-main">
+              <div className="p-5 text-white border lg:p-8 bg-main border-main">
                 <div className="flex justify-end w-full mb-2">
                   <Icon icon="solar:cup-outline" width={30} height={30} />
                 </div>
@@ -74,7 +74,7 @@ export default function Home() {
                   <p className="text-5xl font-regular">600+</p>
                 </div>
               </div>
-              <div className="p-8 border text-main bg-pink border-main">
+              <div className="p-5 border lg:p-8 text-main bg-pink border-main">
                 {" "}
                 <div className="flex justify-end w-full mb-2">
                   <Icon icon="fontisto:world-o" width={30} height={30} />
