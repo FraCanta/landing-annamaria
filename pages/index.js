@@ -62,7 +62,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="grid lg:grid-cols-2 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 ">
               <div className="p-8 text-white border bg-main border-main">
                 <div className="flex justify-end w-full mb-2">
                   <Icon icon="solar:cup-outline" width={30} height={30} />
