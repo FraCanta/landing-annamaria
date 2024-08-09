@@ -14,10 +14,12 @@ const Menu = () => {
           alt="logo"
           className="lg:w-[120px] lg:h-[65px] 2xla:w-[130px] 2xla:h-[80px] object-contain"
         />
-        <Icon
-          icon="mingcute:mail-fill"
-          className="h-[30px] w-[30px] 2xla:w-[35px] 2xla:h-[35px] text-purple"
-        />
+        <a href="mailto:welcome@annamariaricci.eu">
+          <Icon
+            icon="mingcute:mail-fill"
+            className="h-[30px] w-[30px] 2xla:w-[35px] 2xla:h-[35px] text-purple"
+          />
+        </a>
       </nav>
       <div className="w-full h-[0.05rem] bg-main"></div>
     </header>

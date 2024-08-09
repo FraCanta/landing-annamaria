@@ -47,7 +47,7 @@ export default function Home() {
               <p className="text-xl 2xla:text-2xl text-gray">
                 Scopri come posso aiutarti a raggiungere i tuoi obiettivi.{" "}
               </p>
-              <CtaPurple link={"/"} title="scarica">
+              <CtaPurple link={"/Servizi_Annamariaricci.pdf"} title="scarica">
                 {" "}
                 Scarica ora{" "}
                 <Icon icon="system-uicons:download" className="w-6 h-6" />
@@ -83,7 +83,12 @@ export default function Home() {
                   <p className="text-base text-main/90">
                     Se hai domande o desideri maggiori informazioni, contattami!
                   </p>
-                  <p className="text-xl font-bold">welcome@annamariaricci.eu</p>
+                  <a href="mailto:welcome@annamariaricci.eu">
+                    {" "}
+                    <p className="text-xl font-bold">
+                      welcome@annamariaricci.eu
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>

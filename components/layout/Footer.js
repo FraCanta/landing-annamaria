@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -10,9 +11,24 @@ function Footer() {
           © 2024 Anna Maria Ricci. All Rights Reserved.
         </address>
         <div className="flex gap-8 text-main">
-          <Icon icon="uil:linkedin" className="w-8 h-8 " />
-          <Icon icon="dashicons:facebook" className="w-8 h-8 " />
-          <Icon icon="streamline:instagram-solid" className="w-8 h-8 " />
+          <Link
+            href="https://www.linkedin.com/in/annamariaricci/"
+            target="_blank"
+          >
+            <Icon icon="uil:linkedin" className="w-8 h-8 " />
+          </Link>
+          <Link
+            href="https://www.facebook.com/annamariariccigiontella"
+            target="_blank"
+          >
+            <Icon icon="dashicons:facebook" className="w-8 h-8 " />
+          </Link>
+          <Link
+            href="https://www.instagram.com/annamariaricci_careerguidance/"
+            target="_blank"
+          >
+            <Icon icon="streamline:instagram-solid" className="w-8 h-8 " />
+          </Link>
         </div>
       </div>
     </>
