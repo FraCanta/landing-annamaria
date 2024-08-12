@@ -17,16 +17,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KMP7PQWF');`}
       </Script>
       {/* <!-- Google tag (gtag.js) --> */}
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-D8CRBEXC6K"
-      ></Script>
       <Script id="google-analytics" strategy="afterInteractive" defer>
         {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-D8CRBEXC6K');`}
+  gtag('config', 'G-D8CRBEXC6K', { 'debug_mode':true });`}
       </Script>
     </>
   );
