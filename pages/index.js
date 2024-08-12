@@ -22,6 +22,12 @@ export default function Home({ translation, locale }) {
             name="google-site-verification"
             content="nrHV2MQ_ziMHOzgrljTK-sECIJk0ydVLb1GPPYIpQ_w"
           />
+          <link
+            rel="sitemap"
+            type="application/xml"
+            title="Sitemap"
+            href="../sitemap.xml"
+          />
           <Script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-7XWPH0Q69T"

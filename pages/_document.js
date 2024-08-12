@@ -30,12 +30,7 @@ export default function Document() {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <link
-          rel="sitemap"
-          type="application/xml"
-          title="Sitemap"
-          href="../sitemap.xml"
-        />
+
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <body>
