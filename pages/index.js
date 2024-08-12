@@ -17,7 +17,10 @@ export default function Home({ translation, locale }) {
           <meta name="author" content="Anna Maria Ricci" />
           <meta name="description" content={translation.head.description} />
           <meta name="robots" content="index, follow" />
-
+          <meta
+            name="google-site-verification"
+            content="nrHV2MQ_ziMHOzgrljTK-sECIJk0ydVLb1GPPYIpQ_w"
+          />
           <link
             rel="canonical"
             href={`https://www.annamariaricci.eu/${locale.locale}`}
