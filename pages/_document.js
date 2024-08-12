@@ -34,7 +34,7 @@ export default function Document() {
           rel="sitemap"
           type="application/xml"
           title="Sitemap"
-          href="../sitemap.xml"
+          href="./sitemap.xml"
         />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
