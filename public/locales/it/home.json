@@ -1,0 +1,25 @@
+{
+  "home": {
+    "head": {
+      "title": "Anna Maria Ricci: Come cercare lavoro - Carriera orientamento olistico",
+      "description": "Consulenza di carriera: Come cercare lavoro orientamento professionale - Metodo tradizionale e olistico"
+    },
+    "hero": {
+      "title": {
+        "uno": "La passione mi ha portato qui. Sono convinta che un lavoro non sia solo un lavoro. ",
+        "span": "È chi sei tu. E ne ho le prove."
+      },
+      "description": "Scopri come posso aiutarti a raggiungere i tuoi obiettivi.",
+      "cta": "scarica ora",
+      "pdf": "/pdf/Servizi_Annamariaricci_it.pdf",
+      "riquadri": {
+        "nero": {
+          "orientamento": "Ore di orientamento",
+          "selezione": "Ore di ricerca e selezione"
+        },
+        "rosa": "Se hai domande o desideri maggiori informazioni, contattami!"
+      },
+      "citazione": "Ogni orientamento presuppone un disorientamento"
+    }
+  }
+}

@@ -14,18 +14,21 @@ function Footer() {
           <Link
             href="https://www.linkedin.com/in/annamariaricci/"
             target="_blank"
+            title="link a linkedin"
           >
             <Icon icon="uil:linkedin" className="w-8 h-8 " />
           </Link>
           <Link
             href="https://www.facebook.com/annamariariccigiontella"
             target="_blank"
+            title="link a facebook"
           >
             <Icon icon="dashicons:facebook" className="w-8 h-8 " />
           </Link>
           <Link
             href="https://www.instagram.com/annamariaricci_careerguidance/"
             target="_blank"
+            title="link a instagram"
           >
             <Icon icon="streamline:instagram-solid" className="w-8 h-8 " />
           </Link>

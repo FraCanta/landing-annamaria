@@ -1,0 +1,25 @@
+{
+  "home": {
+    "head": {
+      "title": "Anna Maria Ricci: How to Find a Job - Holistic Career Guidance",
+      "description": "Career Counseling: How to Find a Job - Traditional and Holistic Career Guidance"
+    },
+    "hero": {
+      "title": {
+        "uno": "Passion brought me here. I believe that a job is more than just a job. ",
+        "span": "It's who you are. And I have proof of it."
+      },
+      "description": "Find out how I can help you achieve your goals.",
+      "cta": "Donwload now",
+      "pdf": "/pdf/Servizi_Annamariaricci_en.pdf",
+      "riquadri": {
+        "nero": {
+          "orientamento": "Career counseling hours",
+          "selezione": "Research and selection hours"
+        },
+        "rosa": "If you have any questions or would like more information, feel free to contact me!"
+      },
+      "citazione": "Every orientation presupposes a disorientation."
+    }
+  }
+}
