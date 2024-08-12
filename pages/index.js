@@ -6,7 +6,6 @@ import CtaPurple from "@/components/layout/Cta/CtaPurple";
 import { Icon } from "@iconify/react";
 import homeIT from "@/public/locales/it/home.json";
 import homeEN from "@/public/locales/en/home.json";
-import Script from "next/script";
 
 export default function Home({ translation, locale }) {
   console.log(translation);
@@ -28,18 +27,7 @@ export default function Home({ translation, locale }) {
             title="Sitemap"
             href="../sitemap.xml"
           />
-          {/* <!-- Google tag (gtag.js) --> */}
-          <Script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-BL0G9HLEHG"
-          ></Script>
-          <Script id="google-analytics" strategy="afterInteractive" defer>
-            {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-BL0G9HLEHG', { 'debug_mode':true });`}
-          </Script>
           <link
             rel="canonical"
             href={`https://www.annamariaricci.eu/${locale.locale}`}
